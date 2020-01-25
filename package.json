@@ -1,0 +1,23 @@
+{
+  "name": "car-rent",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Czarek-Front-end/Car-rent.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Czarek-Front-end/Car-rent/issues"
+  },
+  "homepage": "https://github.com/Czarek-Front-end/Car-rent#readme",
+  "devDependencies": {
+    "gulp": "^4.0.2",
+    "gulp-sass": "^4.0.2"
+  }
+}
