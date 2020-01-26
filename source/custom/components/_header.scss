@@ -1,9 +1,15 @@
+.navbar {
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
 .navbar-nav .nav-link {
     font-size: .75rem; 
     color: $body-color;
     font-weight: 600;
     padding: $navbar-link-pad;
 }
+
 .rent-type {
     font-size: .75rem;
 }
@@ -15,3 +21,16 @@
     background-color: #FFDC53;
     z-index: -1;
 }
+
+.header {
+    padding: 1.5rem 0;
+}
+
+.fa-bars {
+    content:"\f0c9";
+}
+
+.navbar-toggler:focus, .navbar-toggler:active {
+    outline: none;
+    box-shadow: none;
+  }
