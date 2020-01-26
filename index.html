@@ -19,14 +19,29 @@
               <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
-              <div class="navbar-nav">
-                <a class="nav-item nav-link text-uppercase" href="#">Home</a>
-                <a class="nav-item nav-link text-uppercase" href="#">Wynajem</a>
-                <a class="nav-item nav-link text-uppercase" href="#">Samochody</a>
-                <a class="nav-item nav-link text-uppercase" href="#">Cennik</a>
-                <a class="nav-item nav-link text-uppercase" href="#">Rezerwacja</a>
-                <a class="nav-item nav-link text-uppercase" href="#">Kontakt</a>
-              </div>
+              <ul class="navbar-nav ml-auto">
+                <li class="nav-item active">
+                  <a class="nav-link" href="#">Home</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Samochody</a>
+                </li>
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    Wynajem
+                  </a>
+                  <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <a class="dropdown-item" href="#">Action</a>
+                    <a class="dropdown-item" href="#">Another action</a>
+                  </div>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link disabled" href="#">Rezerwacja</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link disabled" href="#">Kontakt</a>
+                </li>
+              </ul>
             </div>
         </div>
           </nav> 
