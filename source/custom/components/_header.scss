@@ -4,3 +4,14 @@
     font-weight: 600;
     padding: $navbar-link-pad;
 }
+.rent-type {
+    font-size: .75rem;
+}
+
+.content-hero {
+    position: absolute;
+    width: 50vw;
+    height: 100vh;
+    background-color: #FFDC53;
+    z-index: -1;
+}
