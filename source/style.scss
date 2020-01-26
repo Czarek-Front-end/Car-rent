@@ -1,9 +1,13 @@
+
+@import 'custom/base/variables';
+
 // import bootstrap sources
 @import 'bootstrap/bootstrap';
 
-@import 'custom/base/variables';
+
 @import 'custom/base/mixins';
 @import 'custom/base/typography';
+@import 'custom/base/base';
 @import 'custom/components/components';
 @import 'custom/pages/pages';
 

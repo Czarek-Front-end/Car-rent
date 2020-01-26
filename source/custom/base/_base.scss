@@ -7,9 +7,11 @@
 }
 
 html {
-    font-size: 62.5%;
+    font-family: "Open-sans", "PT Serif", sans-serif;
+   
 }
 
 body {
     box-sizing: border-box;
+    color: $body-color;
 }
