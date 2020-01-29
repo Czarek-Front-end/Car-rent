@@ -24,22 +24,14 @@
 }
 .info-box {
     height: 30px;
-    width: 121px;
+    width: 8rem;
     background-color: #EFEFEF;
     margin: 2px 0;
     font-size: .625rem;
-
-    &::before {
-        content: '';
-        margin: 0 10px;
-        
-    }
-
-    &.car::before {
-        content: url(/img/car-info.svg);
-    }
-
-    &.doors::before {
-        content: url(/img/doors.svg);
-    }
+    text-transform: uppercase;
 }
+
+.icon-box-slider {
+    width: 30%;
+}
+
