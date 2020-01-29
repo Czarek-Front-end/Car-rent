@@ -1,0 +1,45 @@
+.hero {
+    height: 100vh;
+}
+
+.carousel {
+    height: 50rem;
+}
+
+.mustang-img {
+    margin-right: .5625rem;
+}
+.slider-heading {
+    max-width: 27.5rem;
+    font-size: .6875rem;
+}
+.price-slide-text {
+    font-size: .75rem;
+    font-weight: 700;
+}
+
+.info-car-slider-box {
+    position: absolute;
+    right: 10px;
+}
+.info-box {
+    height: 30px;
+    width: 121px;
+    background-color: #EFEFEF;
+    margin: 2px 0;
+    font-size: .625rem;
+
+    &::before {
+        content: '';
+        margin: 0 10px;
+        
+    }
+
+    &.car::before {
+        content: url(/img/car-info.svg);
+    }
+
+    &.doors::before {
+        content: url(/img/doors.svg);
+    }
+}
