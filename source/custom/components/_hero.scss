@@ -1,18 +1,17 @@
-.hero {
-    height: 100vh;
-}
 
-.carousel {
-    height: 50rem;
+.carousel-margin {
+    padding-top:6.25rem;
 }
 
 .mustang-img {
     margin-right: .5625rem;
 }
+
 .slider-heading {
     max-width: 27.5rem;
     font-size: .6875rem;
 }
+
 .price-slide-text {
     font-size: .75rem;
     font-weight: 700;
@@ -20,8 +19,25 @@
 
 .info-car-slider-box {
     position: absolute;
-    right: 10px;
+    right: 10%;
+
+    .heading-text-info {
+
+        margin-bottom: 1rem;
+
+        .former-price {
+            font-size: .875rem;
+            text-decoration: line-through;
+            padding-right: .75rem;
+        }
+        .car-model-name {
+            font-size: 1.125rem;
+            text-transform: uppercase;
+        }
+    }
 }
+
+
 .info-box {
     height: 30px;
     width: 8rem;
@@ -35,3 +51,34 @@
     width: 30%;
 }
 
+.main-button {
+  @include button;
+}
+
+.slide-prev-body, .slide-next-body {
+    height: 4.125rem;
+    width: 1.5625rem;
+    background-color: $body-color;
+    opacity: 1;
+    top: 50%;
+
+    .slide-arrow {
+        // height: 20px;
+        width: 1rem;
+    }
+}
+
+.indicators-content {
+    top: 105%;
+
+    li {
+        background-color: rgba(0,0,0, .2);
+        width: 60px;
+       
+    }
+    .active {
+        background-color: #000;
+        height: 4px;
+        width: 60px;
+    }
+}
