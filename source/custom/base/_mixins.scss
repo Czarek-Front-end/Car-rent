@@ -8,3 +8,12 @@
   width: 8rem;
   margin-top: 0.875rem;
 }
+
+
+@mixin label-custom {
+  font-size: .6875rem;
+  text-transform: uppercase;
+  font-weight: 700;
+  margin-left: 1rem;
+  letter-spacing: .5px;
+}
