@@ -10,6 +10,12 @@
 .slider-heading {
     max-width: 27.5rem;
     font-size: .6875rem;
+    @include media-breakpoint-down(lg) {
+        margin-bottom: 1rem;
+    }
+    p {
+        letter-spacing: .05em;
+    }
 }
 
 .price-slide-text {
@@ -63,7 +69,6 @@
     top: 50%;
 
     .slide-arrow {
-        // height: 20px;
         width: 1rem;
     }
 }
