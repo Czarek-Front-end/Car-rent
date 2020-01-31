@@ -58,7 +58,7 @@
         </ol>
         <div class="carousel-inner container">
           <div class="carousel-item active">
-            <div class="slider-heading text-uppercase">
+            <div class="text-center text-lg-left mx-auto mx-lg-0 slider-heading text-uppercase">
               <h1>Wypożyczalnia samochodów osobowych klasy premium</h1>
               <p>już od <span class="price-slide-text">100 zł/dzień</span></p>
             </div>
@@ -104,18 +104,19 @@
               </button>
             </div>
             <div class="d-flex justify-content-center">
-              <img class="mustang-img" src="img/mustang.png" alt="First slide">
+              <img class="mustang-img img-fluid" src="img/mustang.png" alt="First slide">
             </div>
           </div>
+   
           <div class="carousel-item">
-            <div class="slider-heading text-uppercase">
+            <div class="text-center text-lg-left mx-auto mx-lg-0 slider-heading text-uppercase">
               <h1>Wypożyczalnia samochodów osobowych klasy premium</h1>
               <p>już od <span class="price-slide-text">100 zł/dzień</span></p>
             </div>
-            <div class="info-car-slider-box">
+            <div class="d-none d-lg-block info-car-slider-box">
               <div class="heading-text-info">
                 <p class="car-model-name">ford mustang</p>
-                <p class="">200 <b>100 zł/dzień</b></p>
+                <p> <span class="former-price">200</span><b>100 zł/dzień</b></p>
               </div>
               <div class="info-box d-flex align-items-center">
                 <div class="icon-box-slider d-flex justify-content-center px-2">
@@ -154,18 +155,18 @@
               </button>
             </div>
             <div class="d-flex justify-content-center">
-              <img class="mustang-img" src="img/mustang.png" alt="First slide">
+              <img class="mustang-img img-fluid" src="img/mustang.png" alt="First slide">
             </div>
           </div>
           <div class="carousel-item">
-            <div class="slider-heading text-uppercase">
+            <div class="text-center text-lg-left mx-auto mx-lg-0 slider-heading text-uppercase">
               <h1>Wypożyczalnia samochodów osobowych klasy premium</h1>
               <p>już od <span class="price-slide-text">100 zł/dzień</span></p>
             </div>
-            <div class="info-car-slider-box">
+            <div class="d-none d-lg-block info-car-slider-box">
               <div class="heading-text-info">
                 <p class="car-model-name">ford mustang</p>
-                <p class="">200 <b>100 zł/dzień</b></p>
+                <p> <span class="former-price">200</span><b>100 zł/dzień</b></p>
               </div>
               <div class="info-box d-flex align-items-center">
                 <div class="icon-box-slider d-flex justify-content-center px-2">
@@ -204,7 +205,7 @@
               </button>
             </div>
             <div class="d-flex justify-content-center">
-              <img class="mustang-img" src="img/mustang.png" alt="First slide">
+              <img class="mustang-img img-fluid" src="img/mustang.png" alt="First slide">
             </div>
           </div>
       </div>
@@ -217,7 +218,43 @@
         <span class="sr-only">Next</span>
       </a>
     </section>
- 
+
+    <section class="choose-car">
+      <div class="container">
+        <div class="pick-car-container d-md-flex mt-5">
+        
+          <div class="form-group form-width">
+            <label for="exampleFormControlSelect1" class="label-name">marka pojazdu</label>
+            <select class="form-control input-style" id="exampleFormControlSelect1"> 
+              <option>Wybierz</option>
+              <option>2</option>
+              <option>3</option>
+            </select>
+          
+          </div>
+          <div class="form-group form-width">
+            <label for="exampleFormControlSelect1" class="label-name">model pojazdu</label>
+            <select class="form-control input-style" id="exampleFormControlSelect1">
+              <option>Wybierz</option>
+              <option>2</option>
+              <option>3</option>
+            </select>
+            </div>
+            <div class="form-group form-width">
+            <label for="exampleFormControlSelect1" class="label-name">cena (1 dzień)</label>
+            <select class="form-control input-style" id="exampleFormControlSelect1">
+              <option>Wybierz</option>
+              <option>2</option>
+              <option>3</option>
+            </select>
+            </div>
+            <button class="btn button form-width">szukaj</button>
+            
+       
+        </div>
+      
+      </div>
+    </section>
     
     <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
     <script src="js/bootstrap.bundle.min.js"></script>
