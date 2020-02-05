@@ -1,0 +1,84 @@
+.new-products {
+    padding: 72px 0;
+
+    @include media-breakpoint-down(sm) {
+        padding-bottom: 0;
+    }
+ 
+    .divider {
+        margin-bottom: 3.5rem;
+    }
+
+    .main-button {
+        height: 3rem;
+        width: 100%;
+        margin-top: 0;
+      
+    }
+}
+
+.car-offer-container {
+    box-shadow: 0 10px 20px rgba(0,0,0, .06);
+    cursor: pointer;
+
+    &:hover {
+        box-shadow: 0 10px 20px rgba(0,0,0, .16);
+        
+    }
+
+    @include media-breakpoint-down(sm) {
+        margin-bottom: 2rem;
+
+    }
+
+    .car-content-box {
+        padding: 24px 0;
+
+        .car-img {
+            height: 5rem;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            @include media-breakpoint-down(sm) {
+                height: auto;
+            }
+        }
+    
+    .car-content {
+        display: flex;
+        justify-content: space-between;
+        border-bottom: 1px solid rgba(112,112,112, .2);
+        padding: 8px 0;
+        
+            p {
+                font-size: .75rem;
+                text-transform: uppercase;
+                font-weight: 600;
+                color: rgba($body-color, .7);
+            }
+        }
+    }
+}
+
+
+.car-name {
+    margin-bottom: 2rem;
+
+    p {
+        font-size: .75rem;
+        font-weight: 600;
+    }
+    .car-name-bold {
+        font-weight: 700;
+    }
+    .car-name-color {
+        font-weight: 400;
+        color: $main-color-success;
+        text-transform: uppercase;
+    }
+}
+
+
+
+
+
