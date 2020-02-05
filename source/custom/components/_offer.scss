@@ -1,9 +1,6 @@
 .offer {
     margin-top: 15vh;
-    // height: 100vh;
-    @include media-breakpoint-down(md) {
-        margin-top: 8vh;
-    }
+
 }
 
 .offer-container {
@@ -17,9 +14,11 @@
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    margin-top: 72px;
     cursor: pointer;
-    @include media-breakpoint-down(xs) {
+    @include media-breakpoint-down(sm) {
        justify-content: space-around;
+       margin-top: 0;
     }
 
     p {
@@ -46,7 +45,6 @@
     width: 30px;
     margin: 0 auto;
     background-color: $main-color-success;
-    margin-bottom: 72px;
     @include media-breakpoint-down(md) {
         margin-bottom: 40px;
     }
