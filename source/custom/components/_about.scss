@@ -1,0 +1,44 @@
+.about {
+    background-color: #FFFAE8;
+    margin-top: 72px;
+    padding-top: 72px;
+    @include media-breakpoint-down(md) {
+        padding-bottom: 72px;
+    }
+
+    .text-about {
+        margin-top: 32px;
+        font-size: .75rem;
+        line-height: 22px;
+        color: rgba(0,0,0, .5);
+    }
+
+    .item-list {
+        list-style: none;
+        font-size: .75rem;
+        font-weight: 600;
+        li {
+            position: relative;
+            padding-left: 2rem;
+            margin: 4px 0;
+
+            &:before {
+                content: url(/img/tick.svg);
+                position: absolute;
+                border-radius: 50%;
+                background-color: $main-color-success;
+                height: 16px;
+                left: 0;
+                width: 16px; 
+                display: flex;
+                justify-content: center;
+                align-items: center;
+            }
+        }
+    }
+    .divider {
+        @include media-breakpoint-down(md) {
+        margin-bottom: 0;
+        }
+    }
+}
