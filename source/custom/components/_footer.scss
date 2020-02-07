@@ -1,0 +1,49 @@
+.footer {
+    padding: 72px 0 126px 0;
+    font-size: .75rem;
+    font-weight: 600;
+    line-height: 1.7rem;
+    background: url(/img/side-car-view.png) bottom right  no-repeat;
+    background-size: unset;
+    @include media-breakpoint-down(xs) {
+        text-align: center;
+    }
+}
+
+.footer-contact-info {
+    line-height: 2rem;
+    font-weight: 700;
+}
+
+.footer-heading {
+    font-family: 'Open Sans', sans-serif;
+    font-size: .875rem;
+    font-weight: 700;
+    @include media-breakpoint-down(sm) {
+        margin-top: 1rem;
+    }
+}
+
+.footer-logo-container, .footer-contact-info {
+    @include media-breakpoint-down(xs) {
+    text-align: center;
+}
+}
+.img-footer {
+    padding: 0;
+    margin: 0;
+}
+
+.item-spec {
+    line-height: .7rem;
+    font-size: .75rem;
+}
+.border-left {
+    border-left: 1px solid rgba(0,0,0, .10);
+    padding-left: 1rem;
+    @include media-breakpoint-down(sm) {
+        margin-top: .7rem;
+        border: none !important;
+        padding: 0;
+    }
+}
