@@ -21,8 +21,8 @@
               <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
                 <i class="fa fa-bars"></i>
               </button>
-              <div class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
-                <ul class="navbar-nav ml-auto text-uppercase">
+              <div class="collapse navbar-collapse justify-content-end navbar-bg" id="navbarNavAltMarkup">
+                <ul class="navbar-nav ml-auto text-uppercase navbar-list">
                   <li class="nav-item active">
                     <a class="nav-link" href="#">Home</a>
                   </li>
@@ -33,7 +33,7 @@
                     <a class="nav-link dropdown-toggle text-uppercase" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                       Wynajem
                     </a>
-                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <div class="dropdown-menu menu-d" aria-labelledby="navbarDropdown">
                       <a class="dropdown-item rent-type" href="#">Krótkoterminowy</a>
                       <a class="dropdown-item rent-type" href="#">Długoterminowy</a>
                     </div>
@@ -230,34 +230,34 @@
                       <option value="mercedes">mercedes</option>
                       <option value="audi">audi</option>
                     </select>
-                  </div>
+                </div>
                   
-                    <div class="car-picker-input">
-                      <select id="select-car" class="choose form-control shadow-none custom-select"> 
-                        <img src="/img/arrow-pick-car.svg">
-                        <option hidden value="">Model</option>
-                        <option value="ford">ford</option>
-                        <option value="mercedes">mercedes</option>
-                        <option value="audi">audi</option>
-                      </select>
-                    </div>
+                  <div class="car-picker-input">
+                    <select id="select-car" class="choose form-control shadow-none custom-select"> 
+                      <img src="/img/arrow-pick-car.svg">
+                      <option hidden value="">Model</option>
+                      <option value="ford">ford</option>
+                      <option value="mercedes">mercedes</option>
+                      <option value="audi">audi</option>
+                    </select>
+                  </div>
                
-                    <div class="car-picker-input">
-                      <select id="select-car" class="choose form-control shadow-none"> 
-                        <img src="/img/arrow-pick-car.svg">
-                        <option hidden value="">Cena (1 dzień)</option>
-                        <option value="ford">ford</option>
-                        <option value="mercedes">mercedes</option>
-                        <option value="audi">audi</option>
-                      </select>
-                    </div>
+                  <div class="car-picker-input">
+                     <select id="select-car" class="choose form-control shadow-none"> 
+                       <img src="/img/arrow-pick-car.svg">
+                       <option hidden value="">Cena (1 dzień)</option>
+                       <option value="ford">ford</option>
+                       <option value="mercedes">mercedes</option>
+                       <option value="audi">audi</option>
+                     </select>
+                  </div>
         
-                    <div class="car-picker-input">
-                      <button class="btn button-search">
-                        <img src="img/search-icon.svg" class="mr-1">
-                        szukaj
-                      </button>
-                    </div>
+                  <div class="car-picker-input">
+                    <button class="btn button-search">
+                      <img src="img/search-icon.svg" class="mr-1">
+                      szukaj
+                    </button>
+                  </div>
             </div>
       </div>
     </div>
@@ -305,7 +305,7 @@
           <div class="d-none d-lg-block col-12 col-md-5">
             <img src="img/man.png" class="">
           </div>
-          <div class="col-12 col-md-7">
+          <div class="col-12 col-md-12 col-lg-7">
             <h2>o premium cars</h2>
               <div class="divider float-left"></div>
                 <p class="text-about">Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
@@ -558,7 +558,7 @@
             </div>
           </div>
   </section>
-  
+
   <section class="contact">
     <svg class="wave" xmlns="http://www.w3.org/2000/svg" width="1279.313" height="140.319" viewBox="0 0 1279.313 140.319">
       <path id="bg-bottom-wave" data-name="Path 117" d="M321,3365.773H1600.313v84.875s-283.137,90.785-555.445,40.016S321,3497.229,321,3496.7Z" transform="translate(-321 -3365.773)" fill="#fdfdfd"/>
@@ -598,6 +598,57 @@
       </div>
   </section>
 
+  <section class="footer">
+    <div class="container">
+      <div class="row">
+        <div class="col-12 col-sm-12 col-md-3">
+          <div class="footer-logo-container">
+            <img src="/img/logo-footer.svg" class="mb-4" alt="logo footer">
+          </div>
+          <ul class="list-unstyled footer-contact-info d-block">
+            <li><a href="#">info@premium-cars.pl</a class="text-dark"></li>
+            <li><a href="#">+ 48 500 030 340</a></li>
+          </ul>
+        </div>
+        <div class="col-12 col-sm-6 col-md-2">
+          <h5 class="footer-heading">O firmie</h5 class="footer-heading">
+          <ul class="list-unstyled">
+            <li>ul. Pogodna 26</li>
+            <li>20-002 Warszawa</li>
+            <li>Regon: 982938654</li>
+          </ul>
+        </div>
+        <div class="col-12 col-sm-6 col-md-2">
+          <h5 class="footer-heading">Przydatne linki</h5>
+          <ul class="list-unstyled">
+            <li><a href="#">Polityka prywatności</a></li>
+            <li><a href="#">Warunki i regulamin</a></li>
+          </ul>
+        </div>
+        <div class="col-12 col-sm-6 col-md-2">
+          <h5 class="footer-heading">Info</h5>
+          <ul class="list-unstyled">
+            <li><a href="">Nasza misja</a></li>
+            <li><a href="">Kontakt</a></li>
+          </ul>
+        </div>
+        <div class="col-12 col-sm-6 col-md-3">
+          <ul class="list-unstyled footer-heading border-left">
+            <li class="item-spec mb-3">
+              <a href=""><span class="mr-2"><img src="/img/inst.svg" alt="instagram icon"></span>
+             Instagram</a>
+            </li>
+            <li class="item-spec">
+              <a href=""><span class="mr-2"><img src="/img/faceboook.svg" alt="facebook icon"></span>
+             Facebook</a>
+            </li>
+          </ul>
+          
+          
+        </div>
+      </div>
+    </div>
+  </section>
     <script src="source/scripts.js"></script>
     <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
     <script src="js/bootstrap.bundle.min.js"></script>
