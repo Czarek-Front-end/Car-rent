@@ -1,0 +1,68 @@
+.contact {
+    background-color: lightgrey;
+    padding-bottom: 3.5rem;
+    background: url(/img/bg-contact@2x.jpg) center top no-repeat;
+    background-size: cover;
+    position: relative;
+
+     & > * {
+        position: relative;
+        z-index: 2;
+    }
+    &:after {
+        content: '';
+        background-color: #fff;
+        opacity: .96;
+        position: absolute;
+        left: 0;
+        top: 0;
+        width: 100%;
+        height: 100%;
+    }
+    .divider {
+        margin-bottom: 1.5rem;
+    }
+
+.contact-heading-text {
+    font-size: .75rem;
+    color: rgba(0,0,0, .5);
+    max-width: 600px;
+    margin: 0 auto;
+    margin-bottom: 3rem;
+}
+}
+
+.wave {
+    height: auto;
+    width: 100%;
+}
+
+.input-form-contact {
+    border: none;
+    border-bottom: 1px solid rgba(112,112,112, .2);
+    border-radius: 0;
+    background-color: transparent;
+}
+
+.contact label {
+    font-size: .75rem;
+    color: rgba(0,0,0, .5);
+}
+
+.form-container {
+    max-width: 70%;
+    @include media-breakpoint-down(sm) {
+        max-width: 100%;
+    }
+    margin: 0 auto;
+}
+
+.contact .main-button {
+    width: 158px;
+    height: 40px;
+}
+
+.form-control:focus, .form-control:active {
+    border-color: $main-color-success;
+    box-shadow: none;
+} 
